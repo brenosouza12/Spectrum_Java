@@ -12,7 +12,7 @@ public class Main {
         elephant.sleep();
         elephant.makeSound();
         
-        Animal parrot = new Animal("Golden", 5, "Cage", "Parrot", true);
+        Animal parrot = new Animal("Absolute", 5, "Cage", "Parrot", true);
         parrot.eat();
         parrot.sleep();
         parrot.makeSound();
