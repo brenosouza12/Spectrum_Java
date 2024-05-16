@@ -91,7 +91,7 @@ public class TelaBusao extends JFrame {
                 // Mostrar todos os ônibus cadastrados
                 for (Bus b : listaOnibus) {
 
-                    JOptionPane.showMessageDialog(null, "Lista de ônibus cadastrados:\n" + b.getPrefixo() + b.getModeloBus() + b.getAnoBus());
+                    JOptionPane.showMessageDialog(null, "Lista de ônibus cadastrados:\n" + "Prefixo:\n" + b.getPrefixo() + "\nModelo:\n" + b.getModeloBus() + "\nAno:\n" + b.getAnoBus());
 
                 }
 
