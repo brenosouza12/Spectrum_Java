@@ -2,16 +2,14 @@ public class Bus {
 
     private int Prefixo;
     private String ModeloBus;
-    private String chassiBus;
     private String AnoBus;
-    private String placaBus;
 
-    public Bus(int prefixo, String modeloBus,String chassiBus, String anoBus, String placaBus) {
+
+    public Bus(int prefixo, String modeloBus, String anoBus) {
         Prefixo = prefixo;
         ModeloBus = modeloBus;
-        chassiBus = chassiBus;
         AnoBus = anoBus;
-        this.placaBus = placaBus;
+
     }
 
     public int getPrefixo() {
@@ -38,12 +36,5 @@ public class Bus {
         AnoBus = anoBus;
     }
 
-    public String getPlacaBus() {
-        return placaBus;
-    }
-
-    public void setPlacaBus(String placaBus) {
-        this.placaBus = placaBus;
-    }
 }
 
